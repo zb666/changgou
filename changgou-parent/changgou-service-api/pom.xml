@@ -10,10 +10,16 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>changgou-service-api</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>changgou-service-goods-api</module>
+    </modules>
 
+    <description>
+        针对所有微服务的pojo和feign的抽取
+    </description>
 
     <dependencies>
-
     <!--通用的common  要有feign的依赖-->
     <dependency>
         <groupId>org.example</groupId>

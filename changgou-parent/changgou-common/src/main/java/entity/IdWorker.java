@@ -57,6 +57,7 @@ public class IdWorker {
         this.workerId = getMaxWorkerId(datacenterId, maxWorkerId);
     }
     /**
+     * 雪花算法
      * @param workerId
      *            工作机器ID
      * @param datacenterId
